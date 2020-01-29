@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UFT-8">
+    <title>Selenium</title>
+
+    <style>
+/* Style the element with the id "myHeader" */
+/* Style tag is for beautification :css*/
+/*  # means id */
+/* . means class */
+
+#name{
+  background: coral;
+  border-right-color:blue;
+  child-align: left;
+
+}
+
+.st{
+  backface-visibility:inherit;
+  height:auto;
+  image-rendering: optimizeQuality;
+}
+
+
+
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+    </style>
+
+
+</head>
+
+<body>
+
+<h1>We are learning Selenium</h1>
+
+<h2> Value of the tag </h2>
+
+<select>
+    <option> class="st"Cofee</option>
+    <option>id="name"Pizza</option>
+    <option>Tea</option>
+    <option>Burger</option>
+    <option>Cake</option>
+    <option>Chicken</option>
+
+</select>
+<img src= "‎⁨Macintosh HD⁩ ▸ ⁨Users⁩ ▸ ⁨billalyahiaoui⁩ ▸ ⁨Desktop\s1.jpeg">
+<button type="button">Click Here</button>
+/*type is an attribute*/
+/*whatever we write in the double quote "...." is called the value of the attribute*/
+
+<ul style="list-style-type:square;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+
+<table style="width=100%">
+    <tr> tr means table row
+        <th>FirstName</th> th is called table head
+        <th>LastName</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table>
+<br>
+<h1 id="myHeader">My Header</h1>
+<h1 name="firstName">Billal</h1>
+<h1 class="student">Billal</h1>
+<h1 class="city">Brooklyn</h1>
+
+
+<form>
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname">
+</form>
+<br>
+<form>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+</form>
+<br>
+<form action="/action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<select name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+</select>
+
+<br>
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+
+<br>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<br>
+<iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+
+
+</body>
+// there are 8 types of locators in selenium
+// 1-id:
+// 2-name:
+// 3-className:
+// 4-Tag Name :
+// 5-LinkText:
+// 6-Partial LinkText:
+// 7-Css:
+// 8-Xpath
+
+
+
+
+</html>
